@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+form{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    box-shadow: 2px 3px 4px grey;
+    justify-content: center;
+    margin-top: 10%;
+}
+label{
+    display: flex;
+    font-size: large;
+    justify-content: flex-start;
+    font-weight: bold;
+    margin-left: 1%;
+}
+input[type="text"],input[type="email"],input[type="number"],input[type="password"]{
+    width: 90%;
+    padding: 2%;
+    margin-left: 4%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px grey;
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 3%;
+    padding: 2%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+button:hover{
+    background-color: white;
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-bottom: 1%;
+}
+i{
+    font-size: 20px;
+    color: navy;
+    margin-right: 1%;
+    padding-right: 1%;
+}
